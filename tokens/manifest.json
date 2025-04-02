@@ -1,0 +1,132 @@
+{
+  "name": "Design Tokens",
+  "collections": {
+    "Primitives - Typography": {
+      "modes": {
+        "Mode 1": [
+          "Primitives - Typography.Mode 1.tokens.json"
+        ]
+      }
+    },
+    "Breakpoints": {
+      "modes": {
+        "sm": [
+          "Breakpoints.sm.tokens.json"
+        ],
+        "md": [
+          "Breakpoints.md.tokens.json"
+        ],
+        "lg": [
+          "Breakpoints.lg.tokens.json"
+        ]
+      }
+    },
+    "Primitives - Sizing": {
+      "modes": {
+        "Mode 1": [
+          "Primitives - Sizing.Mode 1.tokens.json"
+        ]
+      }
+    },
+    "Primitives - Colors": {
+      "modes": {
+        "Mode 1": [
+          "Primitives - Colors.Mode 1.tokens.json"
+        ]
+      }
+    },
+    "Theme -  Global": {
+      "modes": {
+        "Light": [
+          "Theme -  Global.Light.tokens.json"
+        ],
+        "Dark": [
+          "Theme -  Global.Dark.tokens.json"
+        ]
+      }
+    },
+    "Theme - NRW ": {
+      "modes": {
+        "WAZ": [
+          "Theme - NRW .WAZ.tokens.json"
+        ],
+        "WP": [
+          "Theme - NRW .WP.tokens.json"
+        ],
+        "WR": [
+          "Theme - NRW .WR.tokens.json"
+        ],
+        "NRZ": [
+          "Theme - NRW .NRZ.tokens.json"
+        ]
+      }
+    },
+    "Theme - TH": {
+      "modes": {
+        "TA": [
+          "Theme - TH.TA.tokens.json"
+        ],
+        "TLZ": [
+          "Theme - TH.TLZ.tokens.json"
+        ],
+        "OTZ": [
+          "Theme - TH.OTZ.tokens.json"
+        ]
+      }
+    },
+    "Theme - Metropol": {
+      "modes": {
+        "BMO": [
+          "Theme - Metropol.BMO.tokens.json"
+        ],
+        "HAO": [
+          "Theme - Metropol.HAO.tokens.json"
+        ],
+        "IKZ": [
+          "Theme - Metropol.IKZ.tokens.json"
+        ]
+      }
+    },
+    "Theme - BZV": {
+      "modes": {
+        "BZ / WN": [
+          "Theme - BZV.BZ / WN.tokens.json"
+        ],
+        "HK": [
+          "Theme - BZV.HK.tokens.json"
+        ]
+      }
+    },
+    "Theme -  White Label": {
+      "modes": {
+        "WAZ": [
+          "Theme -  White Label.WAZ.tokens.json"
+        ]
+      }
+    },
+    "Beispiel": {
+      "modes": {
+        "waz": [
+          "Beispiel.waz.tokens.json"
+        ],
+        "bmo": [
+          "Beispiel.bmo.tokens.json"
+        ],
+        "hk": [
+          "Beispiel.hk.tokens.json"
+        ],
+        "": [
+          "Beispiel.....tokens.json"
+        ]
+      }
+    }
+  },
+  "styles": {
+    "text": [
+      "text.styles.tokens.json"
+    ],
+    "grid": [
+      "grid.styles.tokens.json"
+    ]
+  }
+}

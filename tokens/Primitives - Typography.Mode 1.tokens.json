@@ -1,0 +1,92 @@
+{
+  "font-size": {
+    "12": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "14": {
+      "$type": "dimension",
+      "$value": "14px"
+    },
+    "16": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "18": {
+      "$type": "dimension",
+      "$value": "18px"
+    },
+    "20": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "22": {
+      "$type": "dimension",
+      "$value": "22px"
+    },
+    "24": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "28": {
+      "$type": "dimension",
+      "$value": "28px"
+    },
+    "32": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "36": {
+      "$type": "dimension",
+      "$value": "36px"
+    },
+    "48": {
+      "$type": "dimension",
+      "$value": "48px"
+    },
+    "60": {
+      "$type": "dimension",
+      "$value": "60px"
+    },
+    "72": {
+      "$type": "dimension",
+      "$value": "72px"
+    },
+    "96": {
+      "$type": "dimension",
+      "$value": "96px"
+    },
+    "128": {
+      "$type": "dimension",
+      "$value": "128px"
+    }
+  },
+  "font-weight": {
+    "regular": {
+      "$type": "dimension",
+      "$value": "400"
+    },
+    "medium": {
+      "$type": "dimension",
+      "$value": "500"
+    },
+    "semibold": {
+      "$type": "dimension",
+      "$value": "600"
+    },
+    "bold": {
+      "$type": "dimension",
+      "$value": "700"
+    }
+  },
+  "font-family": {
+    "Expressive": {
+      "$type": "string",
+      "$value": "PT Serif"
+    },
+    "Functional": {
+      "$type": "string",
+      "$value": "Fira Sans"
+    }
+  }
+}

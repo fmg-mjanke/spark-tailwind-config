@@ -1,0 +1,41 @@
+{
+  "Column Grid": {
+    "$type": "grid",
+    "$value": [
+      {
+        "pattern": "columns",
+        "visible": true,
+        "alignment": "stretch",
+        "color": "#198ca314",
+        "gutterSize": "{Grid.grid-gutter-width}",
+        "count": "{Grid.grid-columns-count}",
+        "offset": "{Grid.wrapper-padding-x}"
+      }
+    ]
+  },
+  "UX": {
+    "Docs Slide Grid": {
+      "$type": "grid",
+      "$value": [
+        {
+          "pattern": "columns",
+          "visible": true,
+          "alignment": "stretch",
+          "color": "#4d99b214",
+          "gutterSize": "20px",
+          "count": 12,
+          "offset": "60px"
+        },
+        {
+          "pattern": "rows",
+          "visible": false,
+          "alignment": "min",
+          "color": "#409fbf26",
+          "gutterSize": "20px",
+          "count": null,
+          "offset": "60px"
+        }
+      ]
+    }
+  }
+}

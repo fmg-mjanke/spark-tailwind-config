@@ -1,0 +1,52 @@
+{
+  "Font Scale": {
+    "2xs": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": "14px"
+    },
+    "sm-stable": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "base-stable": {
+      "$type": "dimension",
+      "$value": "18px"
+    },
+    "base": {
+      "$type": "dimension",
+      "$value": "18px"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": "28px"
+    },
+    "3xl": {
+      "$type": "dimension",
+      "$value": "36px"
+    },
+    "4xl": {
+      "$type": "dimension",
+      "$value": "48px"
+    },
+    "5xl": {
+      "$type": "dimension",
+      "$value": "60px"
+    }
+  }
+} 

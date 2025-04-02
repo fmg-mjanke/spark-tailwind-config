@@ -1,0 +1,375 @@
+{
+  "id": {
+    "$type": "string",
+    "$value": "md",
+    "$description": "Note @Betsi: Scope must be set to \"Show in all\""
+  },
+  "title": {
+    "$type": "string",
+    "$value": "tablet"
+  },
+  "Font_Scale": {
+    "2xs": {
+      "$type": "dimension",
+      "$value": "{font-size.12}"
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": "{font-size.14}"
+    },
+    "sm-stable": {
+      "$type": "dimension",
+      "$value": "{font-size.14}"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "{font-size.16}"
+    },
+    "base-stable": {
+      "$type": "dimension",
+      "$value": "{font-size.16}"
+    },
+    "base": {
+      "$type": "dimension",
+      "$value": "{font-size.18}"
+    },
+    "lg": {
+      "$type": "dimension",
+      "$value": "{font-size.20}"
+    },
+    "xl": {
+      "$type": "dimension",
+      "$value": "{font-size.24}"
+    },
+    "2xl": {
+      "$type": "dimension",
+      "$value": "{font-size.32}"
+    },
+    "3xl": {
+      "$type": "dimension",
+      "$value": "{font-size.36}"
+    },
+    "4xl": {
+      "$type": "dimension",
+      "$value": "{font-size.48}"
+    },
+    "5xl": {
+      "$type": "dimension",
+      "$value": "{font-size.60}"
+    },
+    "6xl": {
+      "$type": "dimension",
+      "$value": "{font-size.72}"
+    },
+    "7xl": {
+      "$type": "dimension",
+      "$value": "{font-size.96}"
+    },
+    "8xl": {
+      "$type": "dimension",
+      "$value": "{font-size.128}"
+    },
+    "2xs_2": {
+      "$type": "dimension",
+      "$value": "{font-size.12}"
+    },
+    "xs_2": {
+      "$type": "dimension",
+      "$value": "{font-size.14}"
+    },
+    "sm-stable_2": {
+      "$type": "dimension",
+      "$value": "{font-size.14}"
+    },
+    "sm_2": {
+      "$type": "dimension",
+      "$value": "{font-size.16}"
+    },
+    "base-stable_2": {
+      "$type": "dimension",
+      "$value": "{font-size.16}"
+    },
+    "base_2": {
+      "$type": "dimension",
+      "$value": "{font-size.18}"
+    },
+    "lg_2": {
+      "$type": "dimension",
+      "$value": "{font-size.20}"
+    },
+    "xl_2": {
+      "$type": "dimension",
+      "$value": "{font-size.24}"
+    },
+    "2xl_2": {
+      "$type": "dimension",
+      "$value": "{font-size.32}"
+    },
+    "3xl_2": {
+      "$type": "dimension",
+      "$value": "{font-size.36}"
+    },
+    "4xl_2": {
+      "$type": "dimension",
+      "$value": "{font-size.48}"
+    },
+    "5xl_2": {
+      "$type": "dimension",
+      "$value": "{font-size.60}"
+    },
+    "6xl_2": {
+      "$type": "dimension",
+      "$value": "{font-size.72}"
+    },
+    "7xl_2": {
+      "$type": "dimension",
+      "$value": "{font-size.96}"
+    },
+    "8xl_2": {
+      "$type": "dimension",
+      "$value": "{font-size.128}"
+    }
+  },
+  "Icon_Scale": {
+    "2xs": {
+      "$type": "dimension",
+      "$value": "{font-size.14}"
+    },
+    "xs": {
+      "$type": "dimension",
+      "$value": "{font-size.16}"
+    },
+    "sm": {
+      "$type": "dimension",
+      "$value": "{font-size.20}"
+    },
+    "base": {
+      "$type": "dimension",
+      "$value": "{font-size.24}"
+    }
+  },
+  "Grid": {
+    "wrapper-width": {
+      "$type": "dimension",
+      "$value": "650px"
+    },
+    "content-width": {
+      "$type": "dimension",
+      "$value": "618px",
+      "$description": "content-width = wrapper-width - 2 * wrapper-padding-x"
+    },
+    "wrapper-padding-x": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "grid-gutter-width": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "grid-columns-count": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "column-width": {
+      "1col": {
+        "$type": "dimension",
+        "$value": "33px"
+      },
+      "2col": {
+        "$type": "dimension",
+        "$value": "86px"
+      },
+      "3col": {
+        "$type": "dimension",
+        "$value": "140px"
+      },
+      "4col": {
+        "$type": "dimension",
+        "$value": "193px"
+      },
+      "5col": {
+        "$type": "dimension",
+        "$value": "246px"
+      },
+      "6col": {
+        "$type": "dimension",
+        "$value": "299px"
+      },
+      "7col": {
+        "$type": "dimension",
+        "$value": "352px"
+      },
+      "8col": {
+        "$type": "dimension",
+        "$value": "405px"
+      },
+      "9col": {
+        "$type": "dimension",
+        "$value": "459px"
+      },
+      "10col": {
+        "$type": "dimension",
+        "$value": "512px"
+      },
+      "11col": {
+        "$type": "dimension",
+        "$value": "565px"
+      },
+      "12col": {
+        "$type": "dimension",
+        "$value": "{Grid.content-width}"
+      }
+    }
+  },
+  "Visibility": {
+    "display-all": {
+      "$type": "boolean",
+      "$value": true,
+      "$description": "Use on layer visibility to hide elements on certain breakpoints"
+    },
+    "display-lg-only": {
+      "$type": "boolean",
+      "$value": false,
+      "$description": "Use on layer visibility to hide elements on certain breakpoints"
+    },
+    "display-md-lg": {
+      "$type": "boolean",
+      "$value": true,
+      "$description": "Use on layer visibility to hide elements on certain breakpoints"
+    },
+    "display-sm-md": {
+      "$type": "boolean",
+      "$value": true,
+      "$description": "Use on layer visibility to hide elements on certain breakpoints"
+    },
+    "display-sm-only": {
+      "$type": "boolean",
+      "$value": false,
+      "$description": "Use on layer visibility to hide elements on certain breakpoints"
+    }
+  },
+  "Components": {
+    "Teasers": {
+      "defaults": {
+        "teaser-wrapper-padding": {
+          "$type": "dimension",
+          "$value": "{8}"
+        },
+        "teaser-bottom-padding": {
+          "$type": "dimension",
+          "$value": "{24}"
+        }
+      },
+      "TeaserBase": {
+        "teaser-flex": {
+          "$type": "string",
+          "$value": "row"
+        },
+        "image-width": {
+          "$type": "dimension",
+          "$value": "{Grid.column-width.5col}"
+        }
+      },
+      "PlusIcon": {
+        "Size": {
+          "base-stable": {
+            "$type": "dimension",
+            "$value": "{font-size.14}"
+          },
+          "base": {
+            "$type": "dimension",
+            "$value": "{font-size.16}"
+          },
+          "lg": {
+            "$type": "dimension",
+            "$value": "{font-size.18}"
+          },
+          "xl": {
+            "$type": "dimension",
+            "$value": "{font-size.20}"
+          },
+          "2xl": {
+            "$type": "dimension",
+            "$value": "{font-size.28}"
+          },
+          "3xl": {
+            "$type": "dimension",
+            "$value": "{font-size.32}"
+          },
+          "4xl": {
+            "$type": "dimension",
+            "$value": "{font-size.36}"
+          },
+          "5xl": {
+            "$type": "dimension",
+            "$value": "{font-size.48}"
+          }
+        },
+        "WrapperPaddingTop": {
+          "lg": {
+            "$type": "dimension",
+            "$value": "0px"
+          },
+          "xl": {
+            "$type": "dimension",
+            "$value": "2px"
+          },
+          "3xl": {
+            "$type": "dimension",
+            "$value": "1px"
+          },
+          "4xl": {
+            "$type": "dimension",
+            "$value": "10px"
+          }
+        }
+      }
+    },
+    "Button": {
+      "Border_Radius": {
+        "xs": {
+          "$type": "dimension",
+          "$value": "{1}"
+        },
+        "sm": {
+          "$type": "dimension",
+          "$value": "{2}"
+        },
+        "base": {
+          "$type": "dimension",
+          "$value": "{4}"
+        },
+        "lg": {
+          "$type": "dimension",
+          "$value": "{8}"
+        },
+        "pill": {
+          "$type": "dimension",
+          "$value": "9999999px"
+        }
+      },
+      "Padding_x": {
+        "base": {
+          "$type": "dimension",
+          "$value": "{16}"
+        }
+      },
+      "Height": {
+        "base": {
+          "$type": "dimension",
+          "$value": "{32}"
+        }
+      }
+    },
+    "ContentSlider": {
+      "TeaserWidth": {
+        "$type": "dimension",
+        "$value": "247px"
+      }
+    }
+  },
+  "Flag_Title": {
+    "$type": "string",
+    "$value": "Flag"
+  }
+}
